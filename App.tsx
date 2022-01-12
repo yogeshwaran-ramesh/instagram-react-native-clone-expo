@@ -6,8 +6,6 @@ const LogoIcon = require("./src/assets/Logo.png");
 const Stack = createNativeStackNavigator();
 
 import Landing from "./src/screens/Landing";
-import Register from "./src/screens/Register";
-import Login from "./src/screens/Login";
 
 export default function App() {
   const Logo = () => {

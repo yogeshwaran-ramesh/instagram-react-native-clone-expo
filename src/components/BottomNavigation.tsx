@@ -6,7 +6,7 @@ import { NavigationListProps } from "../models";
 import { HomeIcon, SearchIcon, ReelsIcon, LikeIcon } from "../constants/icons";
 import Search from "../screens/Landing/Search";
 import Reels from "../screens/Landing/Reels";
-import Likes from "../screens/Landing/Likes";
+import Activity from "../screens/Landing/Activity";
 import Profile from "../screens/Landing/Profile";
 import Icon from "./Icon";
 const Tab = createMaterialTopTabNavigator();
@@ -30,7 +30,7 @@ const NavigationsData: NavigationListProps[] = [
   {
     name: "Like",
     iconUrl: LikeIcon,
-    component: Likes,
+    component: Activity,
   },
   {
     name: "Profile",
